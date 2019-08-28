@@ -46,6 +46,12 @@ return [
             'level' => 'debug',
         ],
 
+        'registrationLog' => [
+            'driver' => 'single',
+            'path' => storage_path('logs/registrations/'.date('Y/m/d/').'reg.log'),
+            'level' => 'info',
+        ],
+
         'daily' => [
             'driver' => 'daily',
             'path' => storage_path('logs/laravel.log'),
