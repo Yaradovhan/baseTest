@@ -1,8 +1,21 @@
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+//Awesome
 // Variables
 @import 'variables';
-
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+//slider
+.navbar {
+    background-color: $primary;
+    padding: 0.35rem 1rem;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.app-content {
+    flex: 1;
+}
